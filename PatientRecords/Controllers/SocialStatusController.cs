@@ -20,7 +20,7 @@ namespace PatientRecords.Controllers
         }
 
         // GET: api/SocialStatus
-        [HttpGet]
+        [HttpOptions]
         public async Task<ActionResult<IEnumerable<SocialStatus>>> GetSocialStatus()
         {
             return await _context.SocialStatus.ToListAsync();
