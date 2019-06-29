@@ -29,5 +29,6 @@
   "devDependencies": {
     "gh-pages": "^2.0.1",
     "react-admin": "^2.9.3"
-  }
+  },
+  "proxy": "http://10.3.3.66:5000"
 }
